@@ -1,0 +1,6 @@
+#radar-root canvas { width: 100% !important; height: 520px !important; }
+.badge[data-bad="ok"]       { background: #20c997 !important; }
+.badge[data-bad="warn"]     { background: #ffc107 !important; color:#000 !important; }
+.badge[data-bad="error"]    { background: #dc3545 !important; }
+.list-track-person::before  { content: "👤 "; }
+.list-track-object::before  { content: "⬛ "; }
